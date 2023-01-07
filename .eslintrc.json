@@ -1,0 +1,21 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["solid", "@typescript-eslint"],
+  "extends": [
+    "plugin:solid/typescript",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/consistent-type-imports": "warn",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-use-before-define": "error",
+    "no-console": ["warn", { "allow": ["warn"] }],
+    "semi": ["error"],
+    "solid/reactivity": "warn",
+    "solid/no-destructure": "warn",
+    "solid/jsx-no-undef": "error"
+  }
+}
