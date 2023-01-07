@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .button-group {
+    @apply inline-flex;
+  }
+
+  .button-group > *:first-of-type:not(:last-of-type) {
+    @apply rounded-r-none;
+  }
+
+  .button-group > *:not(:first-of-type):not(:last-of-type) {
+    @apply rounded-none;
+  }
+
+  .button-group > *:not(:first-of-type):last-of-type {
+    @apply rounded-l-none;
+  }
+}
