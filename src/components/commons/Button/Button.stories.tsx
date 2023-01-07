@@ -24,6 +24,11 @@ export default {
         defaultValue: { summary: 'default' },
       }
     },
+    color: {
+      control: 'select',
+      options: ['primary', 'info', 'warning', 'success', 'danger'],
+      description: 'Button color',
+    },
     size: {
       control: 'inline-radio',
       options: ['xs', 'sm', 'md', 'lg', 'xl'],
@@ -32,11 +37,6 @@ export default {
       table: {
         defaultValue: { summary: 'md' },
       }
-    },
-    color: {
-      control: 'select',
-      options: ['primary', 'info', 'warning', 'success', 'danger'],
-      description: 'Button color',
     },
     uppercase: {
       control: 'boolean',
