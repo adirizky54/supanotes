@@ -9900,6 +9900,18 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
+solid-headless@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/solid-headless/-/solid-headless-0.13.0.tgz#a2cb09cbb9397dfcde1770c4d020cde3ffd7ae3e"
+  integrity sha512-N118iPl7W5lyug4K+4c0cwM8YR2yEVJ/3H4wq6tVijATHfXfLnB1ACFI5GGHSXlwu70PUzaGSKwcVqLlloUMyA==
+  dependencies:
+    solid-use "^0.5.0"
+
+solid-icons@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/solid-icons/-/solid-icons-1.0.4.tgz#13eb122fe927110e2463c96d226492fb837a9802"
+  integrity sha512-gJTp4in3+OYCs9WvDkSLt4Los2unR3Uoder8wjh15GsfP20xiNOLfPTJllXmn+fI8+k3x7bRYtLGIgWd9fUQug==
+
 solid-js@^1.5.7:
   version "1.6.8"
   resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.6.8.tgz#c21a71f376b915061db7b5b9511e90babe1ccabf"
@@ -9987,6 +9999,11 @@ solid-trpc@^0.0.11-rc.2:
   version "0.0.11-rc.2"
   resolved "https://registry.yarnpkg.com/solid-trpc/-/solid-trpc-0.0.11-rc.2.tgz#4b8db3e07fc913ecc2956b7117466ec12cd6e6ac"
   integrity sha512-hmxf1svB6qf40t81WFMT9329Je7T+hF0/kfLZH/XSkT3jtzjjI8PeZMjc3CRFpMY/BubQQ0gWCFpUhxvlnNl+w==
+
+solid-use@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/solid-use/-/solid-use-0.5.0.tgz#4414bf85ce001d36738a2ac7fd871a90fa809d99"
+  integrity sha512-z1AaS99SL3gNP70K4+XIVKGXDRI56m3Q6Q4X63bfgw0kaN6cwT4SAyFZAmIRjHcvf5rOMRQfNgUV4YVDha+LcQ==
 
 source-list-map@^2.0.0:
   version "2.0.1"

@@ -40,6 +40,8 @@
     "@trpc/client": "^10.1.0",
     "@trpc/server": "^10.1.0",
     "cva": "npm:class-variance-authority",
+    "solid-headless": "^0.13.0",
+    "solid-icons": "^1.0.4",
     "solid-js": "^1.5.7",
     "solid-start": "^0.2.11",
     "solid-start-trpc": "^0.0.16",
