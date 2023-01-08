@@ -6,7 +6,7 @@ import { Button } from "./Button";
 
 // More on default export: https://storybook.js.org/docs/html/writing-stories/introduction#default-export
 export default {
-  title: 'General/Button',
+  title: 'Components/Button',
   // More on argTypes: https://storybook.js.org/docs/html/api/argtypes
   argTypes: {
     variant: {

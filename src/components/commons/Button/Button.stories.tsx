@@ -5,7 +5,7 @@ import { Button } from "./Button";
 
 // More on default export: https://storybook.js.org/docs/html/writing-stories/introduction#default-export
 export default {
-  title: 'General/Button',
+  title: 'Components/Button',
   parameters: {
     docs: {
       description: {
@@ -79,13 +79,11 @@ export default {
 
 const Template = ((args) => <Button {...args} />) as StoryFn<ComponentProps<typeof Button>>;
 
-export const Default = Template.bind({});
-
-Default.args = {
+export const Basic = Template.bind({});
+Basic.args = {
   children: 'Button',
 };
-
-Default.parameters = {
+Basic.parameters = {
   docs: {
     source: {
       code: '<Button>Button</Button>',

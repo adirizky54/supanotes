@@ -5,7 +5,7 @@ import { Alert } from "./Alert";
 
 // More on default export: https://storybook.js.org/docs/html/writing-stories/introduction#default-export
 export default {
-  title: 'Feedback/Alert',
+  title: 'Components/Alert',
   parameters: {
     docs: {
       description: {

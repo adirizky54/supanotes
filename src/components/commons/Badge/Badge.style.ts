@@ -9,7 +9,6 @@ export const badgeStyle = cva(
         light: null,
       },
       color: {
-        default: null,
         primary: null,
         info: null,
         warning: null,
@@ -22,10 +21,6 @@ export const badgeStyle = cva(
       },
     },
     compoundVariants: [
-      // {
-      //   color: 'default',
-      //   class: 'text-gray-800 bg-gray-100',
-      // },
       // Variant Filled
       {
         variant: 'filled',
@@ -81,7 +76,7 @@ export const badgeStyle = cva(
     ],
     defaultVariants: {
       variant: 'filled',
-      color: 'default',
+      color: 'primary',
       uppercase: false,
     },
   },

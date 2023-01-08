@@ -5,7 +5,7 @@ import { Badge } from "./Badge";
 
 // More on default export: https://storybook.js.org/docs/html/writing-stories/introduction#default-export
 export default {
-  title: 'Data Display/Badge',
+  title: 'Components/Badge',
   parameters: {
     docs: {
       description: {
@@ -26,11 +26,11 @@ export default {
     },
     color: {
       control: 'select',
-      options: ['default', 'primary', 'info', 'warning', 'success', 'danger'],
-      defaultValue: 'default',
+      options: ['primary', 'info', 'warning', 'success', 'danger'],
+      defaultValue: 'primary',
       description: 'Color Badge',
       table: {
-        defaultValue: { summary: 'default' },
+        defaultValue: { summary: 'primary' },
       }
     },
     uppercase: {
@@ -48,8 +48,9 @@ export default {
 const Template = ((args) => <Badge {...args} />) as StoryFn<ComponentProps<typeof Badge>>;
 
 export const Default = Template.bind({});
+Default.storyName = 'Badge';
 Default.args = {
   children: 'Badge',
-  color: 'default',
+  color: 'primary',
   variant: 'filled'
 };
