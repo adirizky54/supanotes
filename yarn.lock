@@ -1414,6 +1414,11 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.22.tgz#219dfd89ae5b97a8801f015323ffa4b62f45718b"
   integrity sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==
 
+"@modular-forms/solid@^0.9.5":
+  version "0.9.5"
+  resolved "https://registry.yarnpkg.com/@modular-forms/solid/-/solid-0.9.5.tgz#78af6d42ec18c136143aec90e71df3e2ebfefa80"
+  integrity sha512-hOzexOdtKSoNfp5a7iaEy1nU5MethCglTzfLS4EJoF1IVVNS68Ok5zxPQxXrxAeLMTFdWvPWlx3IEKaiDiYmnw==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -1533,6 +1538,18 @@
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
+
+"@solid-primitives/event-listener@^2.2.4":
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/event-listener/-/event-listener-2.2.4.tgz#2f571b992359abd01cdfae4efaa0bad204680162"
+  integrity sha512-O/ppM0SpXWtNC7AHv1bQA9Dy6pj3NUM06MhSV9xwVv4N06PmlNYhGLDSPT1Esesm6b0fDgCXB5V+AgCSEzQd/w==
+  dependencies:
+    "@solid-primitives/utils" "^4.0.0"
+
+"@solid-primitives/utils@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/utils/-/utils-4.0.0.tgz#3c592287519dc885290d134f8aff3f0f6f4b4720"
+  integrity sha512-fGsJy8Z8YiwogpiezD7TWjI62UCb0JAHJWdoXWGrggrn4bfToZotKkabiB0IVFMkWVE1ZcrkvZT3bkmqGnK0ng==
 
 "@solidjs/meta@^0.28.2":
   version "0.28.2"
