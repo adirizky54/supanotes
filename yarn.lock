@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@adeora/solid-query@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@adeora/solid-query/-/solid-query-0.9.0.tgz#544bcbd81125d509c511ce139910885c921b46c0"
+  integrity sha512-TiLaytRrucJehLTR6XQosse/7LlErHlEPXGQ096Zei6sUuM5ZawkVCaUfYBiSQOTU4ZGezThOtZ36AOzi59UKA==
+  dependencies:
+    "@tanstack/query-core" "4.20.2"
+
 "@ampproject/remapping@^2.1.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@ampproject/remapping/-/remapping-2.2.0.tgz#56c133824780de3174aed5ab6834f3026790154d"
@@ -2474,17 +2481,10 @@
     "@supabase/storage-js" "^2.1.0"
     cross-fetch "^3.1.5"
 
-"@tanstack/query-core@4.20.9":
-  version "4.20.9"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.20.9.tgz#62eb14c2fd6688eaa507452881c96a2c8b6d2544"
-  integrity sha512-XTEEvOGy7wlABPTYfmg7U287WYcf2PV8lH15oKWD2I09okqMOHrB23WxyikEVRwJCjYNKcCW0BuYaAY4S2g/jg==
-
-"@tanstack/solid-query@^4.15.1":
-  version "4.20.9"
-  resolved "https://registry.yarnpkg.com/@tanstack/solid-query/-/solid-query-4.20.9.tgz#a5b102e2c1f25b6a0cafef42b1510436f5e51e7e"
-  integrity sha512-A27K9myMrtcN+sUHmCTcX6SUf3TlQv+OsnC4hep4V0gVfB+44lloC1uZAIM7CT6WPkebqiyQ1toTl3P+/xs1EQ==
-  dependencies:
-    "@tanstack/query-core" "4.20.9"
+"@tanstack/query-core@4.20.2":
+  version "4.20.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.20.2.tgz#147f7dc7eecd0e21fea4926c0dd16163a8170ef9"
+  integrity sha512-50tydwMY+fZuSPHiW+mdMQHSgjR9+3xXDoLBPt1tJWyF0mZDjMetlBxLWNaFb/Aid/ml0ZE5nRUW7CZCtwzpHQ==
 
 "@trpc/client@^10.1.0":
   version "10.8.1"
@@ -10012,10 +10012,10 @@ solid-start@^0.2.11:
     vite-plugin-solid "^2.3.10"
     wait-on "^6.0.1"
 
-solid-trpc@^0.0.11-rc.2:
-  version "0.0.11-rc.2"
-  resolved "https://registry.yarnpkg.com/solid-trpc/-/solid-trpc-0.0.11-rc.2.tgz#4b8db3e07fc913ecc2956b7117466ec12cd6e6ac"
-  integrity sha512-hmxf1svB6qf40t81WFMT9329Je7T+hF0/kfLZH/XSkT3jtzjjI8PeZMjc3CRFpMY/BubQQ0gWCFpUhxvlnNl+w==
+solid-trpc@^0.1.0-ssr.1:
+  version "0.1.0-ssr.1"
+  resolved "https://registry.yarnpkg.com/solid-trpc/-/solid-trpc-0.1.0-ssr.1.tgz#574bd12d31584c803fb2bb7d4f6ed6ab3bdc0931"
+  integrity sha512-cjo6Ma7oQzJubDerEezU0P9lEs/r0nNOlyORn+HXmpWSj8Yj+xTwY/FPaF95CvytTtOUUE5ayktnxqUUNkIZYQ==
 
 solid-use@^0.5.0:
   version "0.5.0"
