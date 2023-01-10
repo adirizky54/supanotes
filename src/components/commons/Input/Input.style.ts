@@ -1,7 +1,7 @@
 import { cva, type VariantProps } from 'cva';
 
 export const inputStyle = cva(
-  'text-gray-900 shadow-sm block w-full rounded-md border border-gray-300 focus:border-red-600 focus:ring-red-500',
+  'text-gray-900 shadow-sm block w-full rounded-md border border-gray-300 focus:border-blue-600 focus:ring-blue-500',
   {
     variants: {
       status: {
